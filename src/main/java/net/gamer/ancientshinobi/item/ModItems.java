@@ -19,8 +19,6 @@ public class ModItems {
     public static final Item PLATINUMINGOT = registerItem("platinum_ingot", new Item(new Item.Settings()));
     public static final Item RAWJADE = registerItem("raw_jade", new Item(new Item.Settings()));
     public static final Item CUTJADE = registerItem("cut_jade", new Item(new Item.Settings()));
-    public static final Item RAWAZURE = registerItem("raw_azure", new Item(new Item.Settings()));
-    public static final Item CUTAZURE = registerItem("cut_azure", new Item(new Item.Settings()));
 
 
     private static Item registerItem(String name, Item item){
@@ -41,8 +39,6 @@ public class ModItems {
             entries.add(PLATINUMINGOT);
             entries.add(RAWJADE);
             entries.add(CUTJADE);
-            entries.add(RAWAZURE);
-            entries.add(CUTAZURE);
         });
     }
 }
